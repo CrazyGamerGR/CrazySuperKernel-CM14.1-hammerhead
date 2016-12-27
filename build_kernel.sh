@@ -19,5 +19,5 @@ cp output/arch/arm/boot/Image $(pwd)/arch/arm/boot/zImage
 ##########################################
 chmod 777 tools_crazy/dtbToolCM
 ##########################################
-tools_crazy/dtbToolCM -2 -o outputd/arch/arm/boot/dt.img -s 2048 -p output/scripts/dtc/ output/arch/arm/boot/
+tools_crazy/dtbToolCM -2 -o output/arch/arm/boot/dt.img -s 2048 -p output/scripts/dtc/ output/arch/arm/boot/
 
